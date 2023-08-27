@@ -1,0 +1,207 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Search bar styles */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    width: 70%;
+    max-width: 400px;
+    height: 80px;
+}
+
+.search-container button[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: -40px;
+    height: 80px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle.active {
+        color: #f94ca4;
+    }
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.star {
+    font-size: 16px;
+    color: #FFD700; /* Set color for filled stars */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .star-rating {
+        justify-content: center;
+    }
+}
+
+/* Dots styling */
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .dot {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+/* Email Subscription styling */
+.email-subscription {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-subscription input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 70%;
+}
+
+.email-subscription button.btn-icon {
+    border-radius: 0 20px 20px 0;
+    background-color: #3b3e41; /* Change to your preferred background color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-subscription button.btn-icon:hover {
+    background-color: rgb(111, 109, 107); /* Change to your preferred hover color */
+}
+
+.social-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #007bff;
+}
+
+/* Remove border lines around service card columns */
+.col-md-3 .card {
+    border: none; /* Remove the border */
+}
+
+/* Add spacing around service card columns */
+.col-md-3 {
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+/* Add spacing around content column */
+.col-md-7 {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+
+
+
+
+
+
+
+ 
