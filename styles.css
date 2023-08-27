@@ -116,7 +116,7 @@ body {
 
 .star {
     font-size: 16px;
-    color: #FFD700; /* Set color for filled stars */
+    color: #FFD700;
 }
 
 /* Media query for responsiveness */
@@ -160,7 +160,7 @@ body {
 
 .email-subscription button.btn-icon {
     border-radius: 0 20px 20px 0;
-    background-color: #3b3e41; /* Change to your preferred background color */
+    background-color: #3b3e41;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -169,7 +169,7 @@ body {
 }
 
 .email-subscription button.btn-icon:hover {
-    background-color: rgb(111, 109, 107); /* Change to your preferred hover color */
+    background-color: rgb(111, 109, 107); 
 }
 
 .social-link {
@@ -184,18 +184,20 @@ body {
 
 /* Remove border lines around service card columns */
 .col-md-3 .card {
-    border: none; /* Remove the border */
+    border: none; 
 }
 
 /* Add spacing around service card columns */
 .col-md-3 {
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 10px; 
 }
 
 /* Add spacing around content column */
 .col-md-7 {
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 20px; 
 }
+
+
 
 
 
